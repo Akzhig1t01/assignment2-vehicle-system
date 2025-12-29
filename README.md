@@ -12,3 +12,4 @@ Inheritance: Car, Motorcycle, and Truck all get their basic features from the Ve
 Polymorphism: In the Main class, I put all vehicles into one array and used a loop to start all their engines at once. This is very efficient because the program automatically knows which engine type it is.
 
 Reflection on My Work This task was very useful for understanding how real-world objects are represented in code. The hardest part for me was setting up the Git branches correctly and making sure the Driver class works well with the Vehicles. I learned that using protected fields is better than private fields when you want your subclasses (like Car) to have direct access to the data.
+![Program Result](screenshots/output1.png)
