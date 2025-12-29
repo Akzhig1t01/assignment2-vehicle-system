@@ -13,10 +13,9 @@ public abstract class Vehicle {
     }
 
     public abstract void startEngine();
-
     public abstract void stopEngine();
 
     public void displayInfo() {
-        System.out.println("Vehicle: " + brand + " (" + year + ")");
+        System.out.println("Brand: " + brand + ", Year: " + year);
     }
 }
